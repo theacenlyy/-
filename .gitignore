@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+staticfiles/
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Trained model artifact — keep small models committed if you want a
+# ready-to-run demo, but it's regenerable via train_and_save_model.py
+# so it's reasonable to .gitignore it too if it grows large.
+# models/*.pkl
